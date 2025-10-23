@@ -4,16 +4,21 @@ public class Main
 {
   public static void main(String[] args)
   {
-    // System.out.println("All odd numbers between 1 and 25 are ");
-    //   for (int count = 1; count <= 25; count += 2)
-    //   {
-    //     System.out.println(count);
-    //   }
+    int counter = 1;
+    for(int i = 0; i <= 50; i++)
+    {
+      System.out.print(i + " ");
+      counter++;
+
+      if(counter == 5)
+      {
+        counter = 0;
+        System.out.println(i);
+      }
 
 
 
+      }
+    }
 
-
-
-  }
 }
